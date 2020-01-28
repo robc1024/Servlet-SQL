@@ -11,5 +11,49 @@
   	<servlet-name>Select</servlet-name>
   	<url-pattern>/DisplayTable</url-pattern>
   </servlet-mapping>
+  
+  <!-- 2. Displays the table using SQL Select Distinct -->
+  <servlet>
+  	<servlet-name>SelectDistinct</servlet-name>
+  	<servlet-class>pkg_servlets.DisplayDistinct</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SelectDistinct</servlet-name>
+  	<url-pattern>/DisplayDistinct</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 3. Displays conditional values using SQL Where -->
+  <servlet>
+  	<servlet-name>DisWhere</servlet-name>
+  	<servlet-class>pkg_servlets.DisplayWhere</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DisWhere</servlet-name>
+  	<url-pattern>/DisplayWhere</url-pattern>
+  </servlet-mapping>
+  
+  <!-- 4. Displays AON values using SQL Where & AON -->
+  <servlet>
+  	<servlet-name>DisAON</servlet-name>
+  	<servlet-class>pkg_servlets.DisplayAON</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DisAON</servlet-name>
+  	<url-pattern>/DisplayAON</url-pattern>
+  </servlet-mapping>
+  
+    <!-- 5. Displays ordered values using SQL Order By -->
+  <servlet>
+  	<servlet-name>DisplayOrdered</servlet-name>
+  	<servlet-class>pkg_servlets.DisplayOrdered</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DisplayOrdered</servlet-name>
+  	<url-pattern>/DisplayOrdered</url-pattern>
+  </servlet-mapping>
 
 </web-app>
