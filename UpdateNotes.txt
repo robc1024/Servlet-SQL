@@ -1,0 +1,19 @@
+Update 0: Initial Commit
+ > index.html
+ > web.xml
+ > DisplayTable.java
+
+Goal: Eclipse IDE setup, Database & Primary Table setup, and Servlet-to-Server Connection setup.
+Next Goal: Test other SQL statments.
+
+
+Update 1: Additon of functionality
+> DisplayDistinct.java
+> DisplayWhere.java
+> DisplayAON.java
+> DisplayOrdered.java
+
+Goal: Test further SQL statements using multiple servlets.
+Next Goal: 1) Combine current servlets into one servlet to reduce the number of uneccessary servlets.
+           2) Add a new servlet to learn & test interactions regarding its response variable.
+
