@@ -6,6 +6,7 @@ Dev Tools:
  - Eclipse EE IDE (v4.13)
    - Java Runtime Environment (v1.8)
    - Java Database Connectivity (4.2)
+   - Apache Tomcat (v9.0)
  - SQL Server Express (v14.0)
  - SQL Server Managment Studio (v18.4)
  - HeidiSQL (v10.2)
